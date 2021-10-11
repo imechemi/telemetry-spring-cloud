@@ -1,0 +1,7 @@
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        process-out-0:
+          destination: sink-topic
